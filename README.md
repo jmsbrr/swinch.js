@@ -30,10 +30,10 @@ var swipeElem = new swinch(document.getElementById('swipe-elem'), {
   thresholdDuration: 150,
   thresholdDistance: 100,
   
-  onMove: function(distance) {
+  onMove: function(distance, direction) {
   },
   
-  onEnd: function(direction) {
+  onEnd: function(distance, direction, duration) {
   }
 });
 ```
